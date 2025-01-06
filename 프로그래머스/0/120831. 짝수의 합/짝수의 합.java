@@ -1,10 +1,8 @@
 class Solution {
     public int solution(int n) {
         int a = 0;
-        for (int i=1; i<=n; i++) {
-            if (i % 2 == 0) {
-                a += i;
-            }
+        for (int i=2; i<=n; i+=2) {
+            a += i;
         }
         return a;
     }
