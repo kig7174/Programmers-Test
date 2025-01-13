@@ -1,6 +1,6 @@
 # [level 0] 분수의 덧셈 - 120808 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120808?language=go) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120808?language=java) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 01월 13일 16:43:22
+2025년 01월 13일 16:43:27
 
 ### 문제 설명
 
