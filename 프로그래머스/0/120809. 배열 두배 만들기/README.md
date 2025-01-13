@@ -1,10 +1,10 @@
 # [level 0] 배열 두배 만들기 - 120809 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120809) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120809?language=go) 
 
 ### 성능 요약
 
-메모리: 88 MB, 시간: 2.78 ms
+메모리: 4.21 MB, 시간: 0.00 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 01월 06일 22:48:26
+2025년 01월 13일 16:06:31
 
 ### 문제 설명
 
