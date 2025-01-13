@@ -1,10 +1,10 @@
 # [level 0] 짝수는 싫어요 - 120813 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120813) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120813?language=go) 
 
 ### 성능 요약
 
-메모리: 86.7 MB, 시간: 3.39 ms
+메모리: 3.55 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 01월 07일 10:17:42
+2025년 01월 13일 16:26:13
 
 ### 문제 설명
 
