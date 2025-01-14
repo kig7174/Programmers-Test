@@ -5,11 +5,9 @@ class Solution {
         if (hp % 5 != 0) {
             answer += hp / 5;
             int hp1 = hp % 5;
-            System.out.println(hp1);
             if (hp1 % 3 != 0) {
                 answer += hp1 / 3;
                 int hp2 = hp1 % 3;
-                System.out.println(hp2);
                 if (hp2 > 0) {
                     answer += hp2 / 1;
                 }
@@ -20,6 +18,7 @@ class Solution {
             answer += hp / 5;
         }
         
+        // hp / 5 + (hp % 5 / 3) + hp % 5 % 3
         return answer;
     }
 }
