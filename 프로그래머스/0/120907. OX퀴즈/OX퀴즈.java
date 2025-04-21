@@ -4,20 +4,10 @@ class Solution {
         
         for (int i=0; i<quiz.length; i++) {
             String[] q = quiz[i].split(" ");
-            if (q[1].equals("+")) {
-                int a = Integer.parseInt(q[0]) + Integer.parseInt(q[2]);
-                if (a == Integer.parseInt(q[4])) {
-                    answer[i] = "O";
-                } else {
-                    answer[i] = "X";
-                }
+            if (q[1].equals("+")) {        
+                answer[i] = Integer.parseInt(q[0]) + Integer.parseInt(q[2]) == Integer.parseInt(q[4]) ? "O" : "X";
             } else {
-                int a = Integer.parseInt(q[0]) - Integer.parseInt(q[2]);
-                if (a == Integer.parseInt(q[4])) {
-                    answer[i] = "O";
-                } else {
-                    answer[i] = "X";
-                }
+                answer[i] = Integer.parseInt(q[0]) - Integer.parseInt(q[2]) == Integer.parseInt(q[4]) ? "O" : "X";
             }
         }
         
