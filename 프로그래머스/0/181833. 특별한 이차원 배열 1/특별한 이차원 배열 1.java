@@ -1,13 +1,13 @@
 class Solution {
     public int[][] solution(int n) {
-        int[][] answer = new int[n][n];
-        for (int i=0; i<answer.length; i++) {
-            for (int j=0; j<answer[i].length; j++) {
+        int[][] a = new int[n][n];
+        for (int i=0; i<a.length; i++) {
+            for (int j=0; j<a[i].length; j++) {
                 if (i == j) {
-                    answer[i][j] = 1;
+                    a[i][j] = 1;
                 }
             }
         }
-        return answer;
+        return a;
     }
 }
